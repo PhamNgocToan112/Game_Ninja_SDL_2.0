@@ -1,0 +1,12 @@
+﻿  GameSDL2.0.cpp
+E:\GameSDL2.0\Monster.h(23,48): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+E:\GameSDL2.0\Monster.h(24,48): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+E:\GameSDL2.0\GameSDL2.0.cpp(112,20): warning C4018: '<': signed/unsigned mismatch
+E:\GameSDL2.0\GameSDL2.0.cpp(130,24): warning C4018: '<': signed/unsigned mismatch
+E:\GameSDL2.0\GameSDL2.0.cpp(181,20): warning C4018: '<': signed/unsigned mismatch
+E:\GameSDL2.0\GameSDL2.0.cpp(186,22): warning C4018: '<': signed/unsigned mismatch
+E:\GameSDL2.0\GameSDL2.0.cpp(209,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\GameSDL2.0\GameSDL2.0.cpp(236,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\GameSDL2.0\GameSDL2.0.cpp(245,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\GameSDL2.0\GameSDL2.0.cpp(287,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  GameSDL2.0.vcxproj -> E:\GameSDL2.0\Debug\GameSDL2.0.exe
