@@ -21,7 +21,7 @@ bool Init() {
 		SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
 		//=>giúp hình ảnh đc mượt mà hơn (phải gọi trc khi tạo texture)
 
-		g_window = SDL_CreateWindow("GameCPP SDL2.0", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+		g_window = SDL_CreateWindow("Game Ninja", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 
 		if (g_window == NULL) {
 			success = false;
@@ -247,7 +247,7 @@ void update(Image_manager& background, GameMap& game_map, Character& p_player, I
 	// hiển thị text 
 
 
-	if (mark_value >= 10)
+	if (mark_value >= MONSTER_NUM)
 	{
 		if (MessageBox(NULL, L"You win", L"Warning", MB_OK | MB_ICONEXCLAMATION) == IDOK)
 		{
